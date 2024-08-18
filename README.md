@@ -1,6 +1,10 @@
 # 🕵🏻‍♂️ Data De-identification
 
 ## Summary
-The Customer De-identification project involved assessing and mitigating the risks associated with re-identifying individuals in a telecom customer survey dataset. The project utilized statistical methods and probabilistic algorithms to evaluate the risk of customer identification under various scenarios, including deliberate attacks, inadvertent recognition, data breaches, and public data exposure. A key part of the analysis involved creating equivalence classes by grouping customers who shared identical values for selected quasi-identifiers, such as age, gender, monthly credit card spending, and household income. These equivalence classes were crucial for measuring re-identification risk, with efforts focused on ensuring that each class was sufficiently large to reduce the risk of singling out individuals. By implementing data quality controls, masking sensitive variables, and grouping data into ranges, the project successfully reduced the re-identification risk while maintaining the dataset's utility for analysis. Final recommendations emphasized the importance of secure data handling and ongoing risk assessments to ensure privacy compliance​.
+A comprehensive risk assessment of a telecom customer survey dataset to evaluate the potential for customer re-identification was performed. Statistical methods and probabilistic algorithms were applied across four scenarios: intentional attack, unintentional recognition, data breaches, and public disclosure. Equivalence classes for quasi-identifiers, ensuring adequate group sizes to reduce re-identification risks, were established. Data quality controls, variable masking, and data grouping strategies were implemented to successfully mitigate risks while preserving the dataset’s utility.
 
-## Tools and Techniques
+## Tools and Skills
+* Language: Python
+* Data Protection
+* Data Governance
+* Data De-identification
